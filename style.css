@@ -50,7 +50,7 @@ button:hover {
     background-color: #8b1e1e;
 }
 
-/* Estilo para los enlaces */
+/* Estilo para los enlaces, con fondo en forma de cuadro */
 .enlaces {
     margin-top: 30px;
     display: flex;
@@ -76,7 +76,7 @@ button:hover {
     font-size: 1.2rem;
     text-decoration: none;
     color: #ffd700;
-    background-color: transparent; /* Se ha eliminado el fondo */
+    background-color: #333; /* Fondo oscuro para el cuadro */
     border-radius: 10px;
     width: 200px;
     height: 100px;
@@ -87,7 +87,7 @@ button:hover {
 
 .enlaces a:hover {
     color: #fff;
-    background-color: #b72a2a;
+    background-color: #b72a2a; /* Cambio de color al pasar el ratón */
     transform: scale(1.05);
 }
 
